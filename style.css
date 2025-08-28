@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -8,7 +9,10 @@
 body{
     width: 100vw;
     height: 100vh;
+    background-image:url(https://i.pinimg.com/1200x/f4/64/e7/f464e7e5047d594d0c27a49a90bb61c7.jpg);
+    background-size:cover;
 }
+
 
 header{
     display: flex;
@@ -19,10 +23,11 @@ header{
     /* tire do comentario se quiser a cor de fundo sempre ativa(removendo as barras e o asterisco do inicio e do fim)*/
     /* background-color: rgb(4, 199, 137); */
     backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgb(96, 226, 209);
 
     margin: auto;
     height: fit-content;
+    
     padding: 15px;
 
 
@@ -63,6 +68,7 @@ header:hover .texto{
 
     margin: 0px;
     padding: 0px;
+    
 }
 
 header h1{
@@ -82,5 +88,69 @@ header h1{
 
     margin: 20px;
 }
+.bt1{
+    margin: 5px;
+      font-size: 16px; 
+      padding: 10px; 
+      background-color: #85ceca; 
+      text-align: center; 
+      border-radius: 15px;
+      border-color: antiquewhite;
+      cursor: pointer;
+}
+.bt2{
+    margin: 5px;
+      font-size: 16px; 
+      padding: 10px; 
+      background-color: #85ceca; 
+      text-align: center; 
+      border-radius: 15px;
+      border-color: antiquewhite;
+      cursor: pointer;
+}
+
+.msg {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.textbutton {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color:azure;
+}
+.bode{
+    margin: 12px;
+  padding-top: 12px;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: 400;
+  color:rgb(0, 0, 0);
+  position:initial;
+  background-color: #85ceca;
+  background-size: cover;
+  border-radius: 15px;
+  height: 100px;
+
+}
+.titu{
+    padding-left: 12px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+.titulo{
+    padding: 21px;
+}
 
 
+
+
+
+
+ 
