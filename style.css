@@ -9,7 +9,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image:url(https://i.pinimg.com/1200x/f4/64/e7/f464e7e5047d594d0c27a49a90bb61c7.jpg);
+    background-color: rgb(154, 184, 211);
     background-size:cover;
 }
 
@@ -23,7 +23,7 @@ header{
     /* tire do comentario se quiser a cor de fundo sempre ativa(removendo as barras e o asterisco do inicio e do fim)*/
     /* background-color: rgb(4, 199, 137); */
     backdrop-filter: blur(5px);
-    background-color: rgb(96, 226, 209);
+    background-color: rgb(135, 173, 206);
 
     margin: auto;
     height: fit-content;
@@ -49,7 +49,7 @@ header .texto{
 
 /* remova se não gostou do efeito de hover(passar o mouse em cima)*/
 header:hover{
-    background-color: rgb(4, 199, 137);
+    background-color: rgb(112, 148, 179);
 }
 
 /* remova se não gostou do efeito de hover(passar o mouse em cima)*/
@@ -92,7 +92,7 @@ header h1{
     margin: 5px;
       font-size: 16px; 
       padding: 10px; 
-      background-color: #85ceca; 
+      background-color: #3b73b3; 
       text-align: center; 
       border-radius: 15px;
       border-color: antiquewhite;
@@ -102,7 +102,7 @@ header h1{
     margin: 5px;
       font-size: 16px; 
       padding: 10px; 
-      background-color: #85ceca; 
+      background-color: #3b73b3; 
       text-align: center; 
       border-radius: 15px;
       border-color: antiquewhite;
@@ -124,21 +124,25 @@ header h1{
   color:azure;
 }
 .bode{
-    margin: 12px;
+  margin-inline-start: 20%;
   padding-top: 12px;
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: 400;
   color:rgb(0, 0, 0);
-  position:initial;
-  background-color: #85ceca;
-  background-size: cover;
+  position:-ms-page;
+  align-items: center;
+  background-color: #6882a5;
   border-radius: 15px;
   height: 100px;
+  width: 800px;
+  text-align: center;
+  
 
 }
 .titu{
+    text-align: center;
     padding-left: 12px;
     font-family: "Cal Sans", sans-serif;
     font-weight: 400;
