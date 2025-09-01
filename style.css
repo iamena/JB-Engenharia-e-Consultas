@@ -149,11 +149,37 @@ header h1{
     font-size: 36px;
 }
 .titulo{
-    padding: 21px;
+    text-align: center;
 }
-.topicoM{
-    margin: 29px;
-    background-color: bisque;
+.missao{
+    background-color: #3b73b3;
+    height: 285px;
+    width: 230px;
+    border-radius: 15px;
+   
+}
+.valores{
+    background-color: #3b73b3;
+    height: 285px;
+    width: 230px;
+    border-radius: 15px;
+   
+}
+.visao{
+    background-color: #3b73b3;
+    height: 285px;
+    width: 230px;
+    border-radius: 15px;   
+}
+.informações{
+ display: flex;
+ flex-flow: row;
+ justify-content: space-between;
+ margin: auto;
+}
+.espaços{
+    justify-content: center;
+    align-items: center;
 }
 
 
