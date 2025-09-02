@@ -144,31 +144,74 @@ header h1 {
 .titulo {
   text-align: center;
 }
-.missao {
-  background-color: #3b73b3;
-  height: 285px;
-  width: 230px;
+
+.card{
+  height: 360px;
+  max-width: 400px;
+
+  display: flex;
+  flex-flow: row;
+
+  background-color: white;
   border-radius: 15px;
-  padding: 6px;
+
+  gap: 15px;
 }
-.valores {
+
+.card-text {
   background-color: #3b73b3;
-  height: 285px;
-  width: 230px;
+
   border-radius: 15px;
-  padding: 6px;
+  padding: 8px;
+
+  width: 200px;
 }
-.visao {
-  background-color: #3b73b3;
-  height: 285px;
-  width: 230px;
+
+.card-img-box{
+  padding: 2px;
+}
+.card img{
+  max-height: 270px;
   border-radius: 15px;
-  padding: 6px;
+  
+  aspect-ratio: none; /* impede que a imagem fique ajustando a altura mesmo quando so mexemos com a largua.*/
+
+  width: 200px;
 }
+
+.logoJB-cards{
+  height: 50px;
+  width: 50px;
+}
+
 .informações {
   display: flex;
   flex-flow: row;
   gap: 12px;
+
+  margin: auto;
+}
+
+/*
+quando eu tenho mais de um elemento no meu html que compartilham da mesma classe, e eu quero manipular somente 1
+deles, eu devo chamar a propriedade nth-child(), e dentro do parenteses, eu devo colocar o numero do elemento, se
+ele for o primeiro, eu coloco nth:child(1), se for o segundo nth:child(2) e assim por diante.
+
+para chamar essa propriedade, voce deve colocar : logo apos a sua tag:
+
+.card:nth-child(2) 
+
+-> .card - chamando todos os elementos que possuam a tag card
+-> :nth-child(2) - estou filtrando a busca para somente o segundo elemento que possuir a tag card.
+
+apos isso, dentro do elemento que chamei, eu tenho dois outros, que compartilham da mesma tag, e eu estou com pregui
+ça de criar uma classe somente para diferenciá-los, então eu apenas coloco o nome da tag, e uso o :nth-child() para
+chamar especificamente o elemento que eu quero:
+
+.card:nth-child(2) img:nth-child(1)
+*/
+.card:nth-child(1) img:nth-child(1){
+  height: 270px;
 }
 
 .espaços {
