@@ -225,22 +225,17 @@ chamar especificamente o elemento que eu quero:
 
 .espaços {
   justify-content: center;
-}
+} 
 
 main {
   display: flex;
   flex-flow: column;
   align-items: center;
 }
-.textinhos{
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: 9;
+
+/* o erro era somente o nome da tag aqui no css, no html vc tinha colocado sem "s", aqui voce colocou com "s" no final. */
+.textinho {
+  font-family: "DM sans", sans-serif;
+  font-weight: bold; /* use algum numero para mudar o peso da fonte (acima de 700 é negrito, voce pode por somente bold se quiser negrito*/
   color: rgb(0, 0, 0);
-
 }
-.textinhos:nth-child(1){
-  font-size: 128px;
-}  
-
