@@ -167,6 +167,10 @@ header h1 {
   width: 200px;
 }
 
+.card-text p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .card-img-box{
   padding: 2px;
 }
