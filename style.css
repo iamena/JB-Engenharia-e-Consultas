@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
+
 * {
   padding: 0px;
   margin: 0px;
-
+  
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
 body {
-  width: 100vw;
-  height: 100vh;
   background-color: rgb(154, 184, 211);
   background-size: cover;
 }
@@ -37,6 +42,7 @@ header {
   top: 0;
 
   z-index: 1;
+
 }
 
 /* remova se não gostou do efeito de hover(passar o mouse em cima)*/
@@ -72,9 +78,26 @@ header h1 {
   padding: 0px;
 }
 
+.naviMenu{
+  margin: 0px, 5px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  border-right: solid 1px;
+}
+
+a:nth-child(3){
+  border-right: none;
+}
+
 .projetos {
   display: flex;
   flex-flow: row;
+  margin: 20px;
 }
 
 .projetos img {
@@ -84,26 +107,6 @@ header h1 {
 
   margin: 20px;
 }
-.bt1 {
-  margin: 5px;
-  font-size: 16px;
-  padding: 10px;
-  background-color: #3b73b3;
-  text-align: center;
-  border-radius: 15px;
-  border-color: antiquewhite;
-  cursor: pointer;
-}
-.bt2 {
-  margin: 5px;
-  font-size: 16px;
-  padding: 10px;
-  background-color: #3b73b3;
-  text-align: center;
-  border-radius: 15px;
-  border-color: antiquewhite;
-  cursor: pointer;
-}
 
 .msg {
   font-family: "Oswald", sans-serif;
@@ -112,13 +115,6 @@ header h1 {
   font-style: normal;
 }
 
-.textbutton {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  color: azure;
-}
 .bode {
   font-family: "DM Sans", sans-serif;
   font-optical-sizing: auto;
@@ -172,10 +168,6 @@ header h1 {
 .card-text p{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-.card-img-box{
-  
-}
 .card img{
   max-height: 270px;
   border-top-right-radius: 15px;
@@ -225,6 +217,7 @@ chamar especificamente o elemento que eu quero:
 
 .espaços {
   justify-content: center;
+  margin: 20px;
 } 
 
 main {
@@ -238,4 +231,46 @@ main {
   font-family: "DM sans", sans-serif;
   font-weight: bold; /* use algum numero para mudar o peso da fonte (acima de 700 é negrito, voce pode por somente bold se quiser negrito*/
   color: rgb(0, 0, 0);
+}
+
+#service-section{
+  max-width: 100%;
+  height: 500px;
+
+  padding: 20px;
+  margin: 20px 0px 0px 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+
+#team-section{
+  max-width: 100%;
+  height: 500px;
+  color: white;
+
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: rgb(154, 184, 211);
+}
+#realized-section{
+  max-width: 100%;
+  height: 500px;
+  color: black;
+
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: white;
 }
