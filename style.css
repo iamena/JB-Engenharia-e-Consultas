@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,600;1,9..40,600&display=swap');
 * {
   padding: 0px;
   margin: 0px;
@@ -231,20 +231,28 @@ main {
   font-family: "DM sans", sans-serif;
   font-weight: bold; /* use algum numero para mudar o peso da fonte (acima de 700 é negrito, voce pode por somente bold se quiser negrito*/
   color: rgb(0, 0, 0);
+  font-size: 15px;
 }
 
 #service-section{
   max-width: 100%;
   height: 500px;
+  width: 100vw;
 
   padding: 20px;
   margin: 20px 0px 0px 0px;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 
   background-color: white;
+
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
 }
 
 
@@ -252,6 +260,7 @@ main {
   max-width: 100%;
   height: 500px;
   color: white;
+  width: 100vw;
 
   padding: 20px;
 
@@ -260,11 +269,18 @@ main {
   justify-content: center;
   
   background-color: rgb(154, 184, 211);
+
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
 }
 #realized-section{
   max-width: 100%;
   height: 500px;
   color: black;
+  width: 100vw;
 
   padding: 20px;
 
@@ -273,4 +289,10 @@ main {
   justify-content: center;
   
   background-color: white;
+
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
 }
